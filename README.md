@@ -110,7 +110,7 @@ Follow these steps to get DropBridge running on your local machine. Please note 
 1.  *Clone the repository:*
 
     ```bash
-    git clone [https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git](https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git) && cd DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool
+    git clone https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool
     ```
 
 2.  *Install dependencies:*
