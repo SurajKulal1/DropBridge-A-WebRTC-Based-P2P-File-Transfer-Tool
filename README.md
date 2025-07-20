@@ -1,4 +1,4 @@
-# DropBridge-A-WebRTC-Based-P2P-File-Transfer-# DropBridge – A WebRTC-Based P2P File Transfer Tool
+# DropBridge – A WebRTC-Based P2P File Transfer Tool
 
 [![Made with HTML, CSS & JS](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange.svg?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=for-the-badge)]()
@@ -10,7 +10,7 @@ Welcome to **DropBridge**, a secure and efficient web application for peer-to-pe
 
 ## 📑 Table of Contents
 
-- [🎮 Features](#-features)
+- [🚀 Features](#-features)
 - [⚙ How It Works](#-how-it-works)
 - [🧠 Concepts Covered](#-concepts-covered)
 - [📂 Project Structure](#-project-structure)
@@ -23,7 +23,7 @@ Welcome to **DropBridge**, a secure and efficient web application for peer-to-pe
 
 ---
 
-## 🎮 Features
+## 🚀 Features
 
 ✅ Direct Peer-to-Peer file transfer using WebRTC   
 🔒 Secure and private data exchange   
@@ -63,19 +63,9 @@ This project is excellent for understanding and practicing:
 ---
 
 ## 📂 Project Structure
-DropBridge/
-│
-├── index.html           # Main HTML structure for the application
-├── style.css            # Styling for the UI, file transfer elements
-├── script.js            # Core JavaScript logic for WebRTC, signaling, and file transfer
-├── images/              # Optional: Contains any UI icons or background images
-│   ├── ...
-└── README.md            # This file
 
 
-# 🔗 DropBridge – A WebRTC-Based P2P File Transfer Tool
 
-DropBridge enables **secure, direct peer-to-peer file transfer** using modern WebRTC technology—no file size limits, no uploads to external servers. Fast, private, and serverless.
 
 ---
 
@@ -95,47 +85,103 @@ DropBridge enables **secure, direct peer-to-peer file transfer** using modern We
 
 ## 📦 Technologies Used
 
-| Technology    | Description                                         |
-|---------------|-----------------------------------------------------|
-| **HTML5**      | Structuring the page content.                      |
-| **CSS3**       | Styling and responsive design.                     |
-| **JavaScript** | Dynamic behavior, WebRTC peer logic.               |
-| **WebRTC**     | Peer-to-peer data transfer (file sharing).         |
-| **WebSocket**  | Signaling server communication for connection setup. |
+| Technology    | Description                                   |
+|---------------|-----------------------------------------------|
+| 🧱 **HTML5** | Page structure and content.                   |
+| 🎨 **CSS3** | Layout, fonts, images, and responsiveness.    |
+| ⚙ **JavaScript** | Dynamic functionality, WebRTC logic, and interactivity. |
+| 🚀 **WebRTC** | Peer-to-peer communication for file transfer. |
+| 🔌 **WebSockets** | (Likely for Signaling Server) Real-time communication for connection setup. |
 
 ---
 
-## 🚀 Getting Started
+## 💻 Getting Started
 
-You can run DropBridge locally with the following steps:
+Follow these steps to get DropBridge running on your local machine. Please note that a **signaling server is required** for WebRTC connections to be established. This project focuses on the client-side WebRTC implementation; you'll need to set up or use an existing signaling server.
 
 ### 🔧 Prerequisites
 
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-- Node.js (for running the signaling server)
-- Basic understanding of HTML/CSS/JS
-- A **signaling server** (WebSocket-based) is required for WebRTC handshake
+-   A modern web browser (Chrome, Firefox, Edge, etc.)
+-   Basic understanding of HTML/CSS/JS (recommended)
+-   **A signaling server running and accessible** (e.g., a simple WebSocket server). You'll need to configure `script.js` to point to your signaling server's address.
 
-### 📥 Installation
+### 🚀 Installation
 
-1. **Clone the repository**
+1.  *Clone the repository:*
 
-```bash
-git clone https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git
+    ```bash
+    git clone [https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git](https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git) && cd DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool
+    ```
 
-**To Install Dependency**
-npm install
+2.  *Install dependencies:*
 
-node index.js
+    ```bash
+    npm install
+    ```
+
+3.  *Run the signaling server:*
+    Navigate to the `server` directory and run the signaling server.
+    *(Note: You might need to create a `server` directory and place your `index.js` file there if it's not already structured that way.)*
+
+    ```bash
+    cd server
+    node index.js
+    ```
+
+4.  *Update signaling server URL:*
+    Open your `script.js` file (or wherever the WebSocket is initialized on the client-side) and update the server URL to match where your signaling server is running:
+
+    ```javascript
+    const signalingServerUrl = 'ws://localhost:3000'; // Or your deployed server URL
+    const ws = new WebSocket(signalingServerUrl);
+    ```
+
+5.  *Run in Browser:*
+    Open `index.html` in two different browser tabs or on two different devices.
+    Share the connection link (or follow your application's specific connection process) between them to establish the P2P link.
+    Transfer files directly, peer-to-peer!
+
 ---
 
-License
-This project is licensed under the MIT License.
+## 🙌 Contributing
 
-📬 Contact
-Made with ❤️ by Suraj Kulal
-GitHub: @SurajKulal1
+We welcome contributions of all kinds! Here’s how you can help:
 
-Found this project helpful? Give it a ⭐ and share it with others!
+1.  *Fork this repository*
+2.  *Create a feature branch:*
 
-Let me know if you want deployment info (like for Vercel), preview image, or tech stack section added.
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3.  *Commit your changes:*
+
+    ```bash
+    git commit -m "Add a cool feature"
+    ```
+
+4.  *Push to your fork:*
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5.  *Open a Pull Request* – we’ll review and merge it!
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it for personal and commercial purposes.
+
+---
+
+## 📬 Contact
+
+[Suraj Kulal](https://github.com/SurajKulal1)
+
+Have suggestions, questions, or want to collaborate? Feel free to open an issue or pull request!
+
+---
+
+> 💡 Don't forget to ⭐ star the repo if you found it helpful!
