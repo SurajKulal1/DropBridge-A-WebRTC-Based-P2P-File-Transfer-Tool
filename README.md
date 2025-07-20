@@ -72,92 +72,10 @@ DropBridge/
 │   ├── ...
 └── README.md            # This file
 
----
-
-You're absolutely right\! I missed including the file structure in the previous markdown.
-
-Here's the complete markdown code for your `README.md`, including the file structure:
-
-```markdown
-
-# DropBridge – A WebRTC-Based P2P File Transfer Tool
-
-[![Made with HTML, CSS & JS](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange.svg?style=for-the-badge&logo=html5)](https://developer.mozilla.org/en-US/docs/Web)
-[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=for-the-badge)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-
-Welcome to **DropBridge**, a secure and efficient web application for peer-to-peer (P2P) file transfers, powered by **WebRTC**. This project provides a direct, browser-to-browser connection, eliminating the need for intermediary servers to transfer your files. Whether you're sharing documents, images, or any other data, DropBridge ensures your files go straight from sender to receiver, offering enhanced privacy and speed. It's an excellent showcase for understanding real-time communication and data channels in web development.
-
----
-
-## 📑 Table of Contents
-
-- [🎮 Features](#-features)
-- [⚙ How It Works](#-how-it-works)
-- [🧠 Concepts Covered](#-concepts-covered)
-- [📂 Project Structure](#-project-structure)
-- [📷 Screenshots](#-screenshots)
-- [📦 Technologies Used](#-technologies-used)
-- [💻 Getting Started](#-getting-started)
-- [🙌 Contributing](#-contributing)
-- [📄 License](#-license)
-- [📬 Contact](#-contact)
-
----
-
-## 🎮 Features
-
-✅ Direct Peer-to-Peer file transfer using WebRTC   
-🔒 Secure and private data exchange   
-🚀 Fast transfers, bypassing traditional server uploads   
-🌐 Cross-browser compatibility   
-📱 Responsive UI for desktop and mobile   
-👨‍🏫 Beginner-friendly structure for WebRTC learning   
-🧩 Ideal for exploring real-time communication in browsers
-
----
-
-## ⚙ How It Works
-
-1.  **Signaling:** Users initiate a connection through a signaling server (not for data transfer, but for exchanging connection information like IP addresses and port numbers). This typically involves WebSocket for real-time communication.
-2.  **Peer Connection (RTCPeerConnection):** Once signaling is complete, browsers establish a direct P2P connection using WebRTC's `RTCPeerConnection` API.
-3.  **Data Channel (RTCDataChannel):** Files are transferred over a secure `RTCDataChannel` established within the peer connection. This channel allows for reliable, high-throughput data transfer.
-4.  **File Transfer:** The sender selects a file, which is then chunked and sent over the data channel to the receiver. The receiver reconstructs the file.
-5.  The entire process leverages vanilla JavaScript for core logic, HTML for structure, and CSS for styling and responsiveness.
-
----
-
-## 🧠 Concepts Covered
-
-This project is excellent for understanding and practicing:
-
--   ✅ **WebRTC Fundamentals:** `RTCPeerConnection`, `RTCSessionDescription`, `RTCIceCandidate`
--   **RTCDataChannel API:** Sending and receiving arbitrary data over a P2P connection
--   **Signaling Mechanisms:** How peers discover and connect with each other (requires an external signaling server setup, e.g., using WebSockets)
--   **File API:** Reading and handling files in the browser
--   **Blob and ArrayBuffer:** Efficiently handling binary data for transfer
--   **Asynchronous JavaScript:** Managing promises and callbacks for WebRTC events
--   **DOM Manipulation:** Dynamically updating the UI to reflect connection status and transfer progress
--   **Basic HTML Structure and Semantics**
--   **CSS Styling, Alignment, and Layout Techniques**
--   **Responsive Web Design**
-
----
-
-## 📂 Project Structure
-
-```
-
-DropBridge/
-│
-├── index.html           \# Main HTML structure for the application
-├── style.css            \# Styling for the UI, file transfer elements
-├── script.js            \# Core JavaScript logic for WebRTC, signaling, and file transfer
-├── images/              \# Optional: Contains any UI icons or background images
-│   ├── ...
-└── README.md            \# This file
 
 ````
+
+---
 
 ## 📷 Screenshots
 
@@ -273,4 +191,3 @@ Have suggestions, questions, or want to collaborate? Feel free to open an issue 
 ---
 
 > 💡 Don't forget to ⭐ star the repo if you found it helpful!
-````
