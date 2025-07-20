@@ -73,7 +73,9 @@ DropBridge/
 └── README.md            # This file
 
 
-````
+# 🔗 DropBridge – A WebRTC-Based P2P File Transfer Tool
+
+DropBridge enables **secure, direct peer-to-peer file transfer** using modern WebRTC technology—no file size limits, no uploads to external servers. Fast, private, and serverless.
 
 ---
 
@@ -93,101 +95,31 @@ DropBridge/
 
 ## 📦 Technologies Used
 
-| Technology    | Description                                   |
-|---------------|-----------------------------------------------|
-| 🧱 **HTML5** | Page structure and content.                   |
-| 🎨 **CSS3** | Layout, fonts, images, and responsiveness.    |
-| ⚙ **JavaScript** | Dynamic functionality, WebRTC logic, and interactivity. |
-| 🚀 **WebRTC** | Peer-to-peer communication for file transfer. |
-| 🔌 **WebSockets** | (Likely for Signaling Server) Real-time communication for connection setup. |
+| Technology    | Description                                         |
+|---------------|-----------------------------------------------------|
+| **HTML5**      | Structuring the page content.                      |
+| **CSS3**       | Styling and responsive design.                     |
+| **JavaScript** | Dynamic behavior, WebRTC peer logic.               |
+| **WebRTC**     | Peer-to-peer data transfer (file sharing).         |
+| **WebSocket**  | Signaling server communication for connection setup. |
 
 ---
 
-## 💻 Getting Started
+## 🚀 Getting Started
 
-Follow these steps to get DropBridge running on your local machine. Please note that a **signaling server is required** for WebRTC connections to be established. This project focuses on the client-side WebRTC implementation; you'll need to set up or use an existing signaling server.
+You can run DropBridge locally with the following steps:
 
 ### 🔧 Prerequisites
 
--   A modern web browser (Chrome, Firefox, Edge, etc.)
--   Basic understanding of HTML/CSS/JS (recommended)
--   **A signaling server running and accessible** (e.g., a simple WebSocket server). You'll need to configure `script.js` to point to your signaling server's address.
+- A modern web browser (Chrome, Firefox, Edge, etc.)
+- Node.js (for running the signaling server)
+- Basic understanding of HTML/CSS/JS
+- A **signaling server** (WebSocket-based) is required for WebRTC handshake
 
-### 🚀 Installation
+### 📥 Installation
 
-1.  *Clone the repository:*
+1. **Clone the repository**
 
-    ```bash
-    git clone [https://github.com/he-is-talha/html-css-javascript-games.git](https://github.com/he-is-talha/html-css-javascript-games.git)
-    ```
-
-2.  *Navigate to the DropBridge directory:*
-
-    ```bash
-    cd html-css-javascript-games/DropBridge
-    ```
-
-3.  *Configure your signaling server URL:*
-    Open `script.js` and update the WebSocket URL to point to your signaling server.
-
-    ```javascript
-    // Example: Replace with your signaling server URL
-    const signalingServerUrl = 'ws://your-signaling-server.com:8080';
-    const ws = new WebSocket(signalingServerUrl);
-    ```
-
-4.  *Open the project in your browser:*
-
-    ```bash
-    start index.html   # On Windows
-    open index.html    # On macOS
-    ```
-
-    Or simply *drag and drop* `index.html` into your browser.
-
-5.  *Connect two instances:* Open `index.html` in two separate browser tabs or on two different devices to test the P2P connection and file transfer.
-
----
-
-## 🙌 Contributing
-
-We welcome contributions to enhance DropBridge! Here’s how you can help:
-
-1.  *Fork this repository*
-2.  *Create a feature branch:*
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-3.  *Commit your changes:*
-
-    ```bash
-    git commit -m "Add a cool feature"
-    ```
-
-4.  *Push to your fork:*
-
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-5.  *Open a Pull Request* – we’ll review and merge it!
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](../LICENSE). You are free to use, modify, and distribute it for personal and commercial purposes.
-
----
-
-## 📬 Contact
-
-[shodhanshetty12](https://github.com/shodhanshetty12)
-
-Have suggestions, questions, or want to collaborate? Feel free to open an issue or pull request!
-
----
-
-> 💡 Don't forget to ⭐ star the repo if you found it helpful!
+```bash
+git clone https://github.com/your-username/DropBridge.git
+cd DropBridge
