@@ -105,44 +105,47 @@ Follow these steps to get DropBridge running on your local machine. Please note 
 -   Basic understanding of HTML/CSS/JS (recommended)
 -   **A signaling server running and accessible** (e.g., a simple WebSocket server). You'll need to configure `script.js` to point to your signaling server's address.
 
-### 🚀 Installation
+### 💻 Getting Started
+
+Follow these steps to get DropBridge running on your local machine. Please note that a **signaling server is required** for WebRTC connections to be established. This project focuses on the client-side WebRTC implementation; you'll need to set up or use an existing signaling server.
+
+#### 🔧 Prerequisites
+
+-   A modern web browser (Chrome, Firefox, Edge, etc.)
+-   Basic understanding of HTML/CSS/JS (recommended)
+-   Node.js and npm installed (for the signaling server)
+
+#### 🚀 Installation
 
 1.  *Clone the repository:*
 
     ```bash
-    git clone https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool
+    git clone [https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git](https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git)
     ```
 
-2.  *Install dependencies:*
+2.  *Navigate to the project directory:*
 
     ```bash
-    npm install
+    cd DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool
     ```
 
-3.  *Run the signaling server:*
-    Navigate to the `server` directory and run the signaling server.
-    *(Note: You might need to create a `server` directory and place your `index.js` file there if it's not already structured that way.)*
+3.  *Install server dependencies and run the signaling server:*
 
     ```bash
     cd server
-    node index.js
+    npm install
+    npm start
     ```
+    *(This starts the signaling server, typically on `ws://localhost:3000`.)*
 
-4.  *Update signaling server URL:*
-    Open your `script.js` file (or wherever the WebSocket is initialized on the client-side) and update the server URL to match where your signaling server is running:
+4.  *Update signaling server URL (Client-Side):*
+    Open your `script.js` file (or wherever the WebSocket is initialized on the client-side, likely in your main `DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool/script.js` file) and ensure the server URL matches where your signaling server is running:
 
     ```javascript
     const signalingServerUrl = 'ws://localhost:3000'; // Or your deployed server URL
     const ws = new WebSocket(signalingServerUrl);
     ```
-
-5.  *Run in Browser:*
-    Open `index.html` in two different browser tabs or on two different devices.
-    Share the connection link (or follow your application's specific connection process) between them to establish the P2P link.
-    Transfer files directly, peer-to-peer!
-
----
-
+    
 ## 🙌 Contributing
 
 We welcome contributions of all kinds! Here’s how you can help:
