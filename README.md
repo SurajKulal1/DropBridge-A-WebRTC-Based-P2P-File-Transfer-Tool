@@ -17,7 +17,6 @@ Welcome to **DropBridge**, a secure and efficient web application for peer-to-pe
 - [📷 Screenshots](#-screenshots)
 - [📦 Technologies Used](#-technologies-used)
 - [💻 Getting Started](#-getting-started)
-- [🙌 Contributing](#-contributing)
 - [📄 License](#-license)
 - [📬 Contact](#-contact)
 
@@ -146,32 +145,6 @@ Follow these steps to get DropBridge running on your local machine. Please note 
     const ws = new WebSocket(signalingServerUrl);
     ```
     
-## 🙌 Contributing
-
-We welcome contributions of all kinds! Here’s how you can help:
-
-1.  *Fork this repository*
-2.  *Create a feature branch:*
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-3.  *Commit your changes:*
-
-    ```bash
-    git commit -m "Add a cool feature"
-    ```
-
-4.  *Push to your fork:*
-
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-5.  *Open a Pull Request* – we’ll review and merge it!
-
----
 
 ## 📄 License
 
