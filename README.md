@@ -123,5 +123,19 @@ You can run DropBridge locally with the following steps:
 ```bash
 git clone https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git
 
-**To Install Dependency
+**To Install Dependency**
 npm install
+
+node index.js
+---
+
+License
+This project is licensed under the MIT License.
+
+📬 Contact
+Made with ❤️ by Suraj Kulal
+GitHub: @SurajKulal1
+
+Found this project helpful? Give it a ⭐ and share it with others!
+
+Let me know if you want deployment info (like for Vercel), preview image, or tech stack section added.
