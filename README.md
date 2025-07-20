@@ -121,5 +121,7 @@ You can run DropBridge locally with the following steps:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/DropBridge.git
-cd DropBridge
+git clone https://github.com/SurajKulal1/DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool.git
+
+**To Install Dependency
+npm install
