@@ -64,6 +64,19 @@ This project is excellent for understanding and practicing:
 ## 📂 Project Structure
 
 
+```
+DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool/
+│
+├── public/                  # Contains client-side web assets
+│   └── index.html           # Main HTML file for the application
+│
+├── index.js                 # Likely your signaling server's entry point (as per previous package.json)
+├── package.json             # Defines project metadata and dependencies for the server
+├── package-lock.json        # Locks exact versions of dependencies
+├── LICENSE                  # Project's license file
+├── README.md                # This README file
+└── vercel.json              # Configuration file for Vercel deployment
+```
 
 
 ---
