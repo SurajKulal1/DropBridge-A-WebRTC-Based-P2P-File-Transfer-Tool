@@ -135,13 +135,13 @@ Follow these steps to get DropBridge running on your local machine. Please note 
     npm install
     npm start
     ```
-    *(This starts the signaling server, typically on `ws://localhost:3000`.)*
+    *(This starts the signaling server, typically on `http://localhost:3000/`.)*
 
 4.  *Update signaling server URL (Client-Side):*
     Open your `script.js` file (or wherever the WebSocket is initialized on the client-side, likely in your main `DropBridge-A-WebRTC-Based-P2P-File-Transfer-Tool/script.js` file) and ensure the server URL matches where your signaling server is running:
 
     ```javascript
-    const signalingServerUrl = 'ws://localhost:3000'; // Or your deployed server URL
+    const signalingServerUrl = 'http://localhost:3000/'; // Or your deployed server URL
     const ws = new WebSocket(signalingServerUrl);
     ```
     
