@@ -71,7 +71,7 @@ This project is excellent for understanding and practicing:
 ## 📷 Screenshots
 
 ### 🔗 Initial State
-Images/photo.png
+![Local device after generating a connection offer](Images/photo.png)
 
 ### ✉️ Connection Offer Generated
 ![Local device after generating a connection offer](Images/photo.png)
