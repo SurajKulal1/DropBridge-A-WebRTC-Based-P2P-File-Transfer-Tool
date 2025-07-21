@@ -77,7 +77,7 @@ This project is excellent for understanding and practicing:
 ![Local device after generating a connection offer](Images/photo2.png)
 
 ### ✅ Peer Connection Established
-![Application showing a successful peer connection](http://googleusercontent.com/file_content/7)
+![Application showing a successful peer connection](Images/photo3.png)
 
 ### 📤 Ready for File Transfer
 ![Interface ready for file selection and drag-and-drop after connection](http://googleusercontent.com/file_content/3)
