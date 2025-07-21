@@ -74,7 +74,7 @@ This project is excellent for understanding and practicing:
 ![Local device after generating a connection offer](Images/photo.png)
 
 ### ✉️ Connection Offer Generated
-![Local device after generating a connection offer](Images/photo.png)
+![Local device after generating a connection offer](Images/photo2.png)
 
 ### ✅ Peer Connection Established
 ![Application showing a successful peer connection](http://googleusercontent.com/file_content/7)
