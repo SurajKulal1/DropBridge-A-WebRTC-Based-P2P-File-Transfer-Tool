@@ -71,7 +71,7 @@ This project is excellent for understanding and practicing:
 ## 📷 Screenshots
 
 ### 🔗 Initial State
-![Initial connection state showing 'Not connected to peer'](Images/Screenshot 2025-07-21 091855.png)
+Images/Screenshot 2025-07-21 091855.png
 
 ### ✉️ Connection Offer Generated
 ![Local device after generating a connection offer](http://googleusercontent.com/file_content/6)
