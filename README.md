@@ -85,7 +85,6 @@ This project is excellent for understanding and practicing:
 ### ⬇️ File Successfully Received
 ![Example of a file successfully received and ready for download](Images/photo5.png)
 
-> _The images above are hosted externally for demonstration. In your repository, you might place them in a `/screenshots` folder and update the paths accordingly._
 
 ---
 
