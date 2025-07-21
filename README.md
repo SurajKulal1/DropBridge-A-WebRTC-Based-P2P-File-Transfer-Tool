@@ -80,10 +80,10 @@ This project is excellent for understanding and practicing:
 ![Application showing a successful peer connection](Images/photo3.png)
 
 ### 📤 Ready for File Transfer
-![Interface ready for file selection and drag-and-drop after connection](http://googleusercontent.com/file_content/3)
+![Interface ready for file selection and drag-and-drop after connection](Images/photo4.png)
 
 ### ⬇️ File Successfully Received
-![Example of a file successfully received and ready for download](http://googleusercontent.com/file_content/0)
+![Example of a file successfully received and ready for download](Images/photo5.png)
 
 > _The images above are hosted externally for demonstration. In your repository, you might place them in a `/screenshots` folder and update the paths accordingly._
 
