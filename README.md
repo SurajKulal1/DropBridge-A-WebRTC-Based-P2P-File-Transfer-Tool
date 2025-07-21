@@ -73,7 +73,7 @@ This project is excellent for understanding and practicing:
 > 📸 Here are some screenshots showcasing DropBridge's interface and workflow.
 
 ### 🔗 Initial State
-![Initial connection state showing 'Not connected to peer'](http://googleusercontent.com/file_content/8)
+![Initial connection state showing 'Not connected to peer'](Images/Screenshot 2025-07-21 091855.png)
 
 ### ✉️ Connection Offer Generated
 ![Local device after generating a connection offer](http://googleusercontent.com/file_content/6)
