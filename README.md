@@ -70,15 +70,24 @@ This project is excellent for understanding and practicing:
 
 ## 📷 Screenshots
 
-> 📸 *Add your screenshots below* to showcase the application's interface.
+> 📸 Here are some screenshots showcasing DropBridge's interface and workflow.
 
-### 🔗 Initial Connection State
-![Initial connection screen for DropBridge](https://via.placeholder.com/600x400?text=DropBridge+Initial+State)
+### 🔗 Initial State
+![Initial connection state showing 'Not connected to peer'](http://googleusercontent.com/file_content/8)
 
-### 📤 File Transfer in Progress
-![File transfer in progress for DropBridge](https://via.placeholder.com/600x400?text=DropBridge+Transfer+In+Progress)
+### ✉️ Connection Offer Generated
+![Local device after generating a connection offer](http://googleusercontent.com/file_content/6)
 
-> _Place your images in a `/screenshots` folder and update the path above accordingly._
+### ✅ Peer Connection Established
+![Application showing a successful peer connection](http://googleusercontent.com/file_content/7)
+
+### 📤 Ready for File Transfer
+![Interface ready for file selection and drag-and-drop after connection](http://googleusercontent.com/file_content/3)
+
+### ⬇️ File Successfully Received
+![Example of a file successfully received and ready for download](http://googleusercontent.com/file_content/0)
+
+> _The images above are hosted externally for demonstration. In your repository, you might place them in a `/screenshots` folder and update the paths accordingly._
 
 ---
 
