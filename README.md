@@ -71,10 +71,10 @@ This project is excellent for understanding and practicing:
 ## 📷 Screenshots
 
 ### 🔗 Initial State
-Images/Screenshot 2025-07-21 091855.png
+Images/photo.png
 
 ### ✉️ Connection Offer Generated
-![Local device after generating a connection offer](http://googleusercontent.com/file_content/6)
+![Local device after generating a connection offer](Images/photo.png)
 
 ### ✅ Peer Connection Established
 ![Application showing a successful peer connection](http://googleusercontent.com/file_content/7)
